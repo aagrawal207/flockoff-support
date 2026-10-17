@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Flock Off's privacy policy: on-device storage, Nearby and Online play, optional Game Center leaderboards and tips, anonymous usage analytics, and data deletion.">
+  <meta name="theme-color" content="#3f7d2c">
+  <title>Privacy policy | Flock Off</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html">Flock Off</a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html" aria-current="page">Privacy</a>
+    </nav>
+  </header>
+  <main id="main">
+    <h1>Privacy policy for Flock Off</h1>
+    <p class="updated">Last updated: October 17, 2026</p>
+
+    <section aria-labelledby="summary-heading">
+      <h2 id="summary-heading">The short version</h2>
+      <p>Flock Off is a free game with no ads and no tracking. Your progress and settings stay on your iPhone. The app sends anonymous usage summaries to help improve the game, and you can turn them off in Settings. Optional services are run by Apple (Game Center, tips) and Google Firebase (online play). Playing against the computer works with no network at all.</p>
+    </section>
+
+    <section aria-labelledby="local-heading">
+      <h2 id="local-heading">What is stored on your iPhone</h2>
+      <p>Flock Off saves these on your device with iOS's standard storage (UserDefaults):</p>
+      <ul>
+        <li>Your settings: sound effects, music and haptics switches, the chosen music, your herd, the last computer difficulty, whether you have seen the tutorial, and the display name you choose.</li>
+        <li>Your progress: experience points, level, unlocked herds, and match stats (matches, wins, losses, draws, lanes claimed, animals sent, win streaks, per mode).</li>
+        <li>Tips: the verified App Store transaction ids of tips you have given and whether each was refunded, so a tip is never counted twice. Tips unlock nothing.</li>
+        <li>Prompt timing: counts of finished matches and play days, and the dates of review requests and tip reminders, so the app asks rarely.</li>
+        <li>Anonymous analytics, unless you turn them off: a random install id, the date analytics started on this device, and at most 64 summaries waiting to be sent.</li>
+      </ul>
+      <p>None of this is uploaded, except the Game Center scores and analytics summaries described below. There is no account and no sign-up.</p>
+    </section>
+
+    <section aria-labelledby="name-heading">
+      <h2 id="name-heading">Your display name</h2>
+      <p>You choose a display name (up to 16 characters). It starts as "Shepherd" with a random number. It is shown to the other player in a Nearby or Online match. It is not sent to analytics.</p>
+    </section>
+
+    <section aria-labelledby="nearby-heading">
+      <h2 id="nearby-heading">Playing on the same Wi-Fi (Nearby)</h2>
+      <p>Nearby play finds other phones on your local network with Bonjour and connects to them directly over your Wi-Fi. iOS asks for Local Network permission first. Match moves and your display name go only to the other phone, never to the internet or to the developer.</p>
+    </section>
+
+    <section aria-labelledby="online-heading">
+      <h2 id="online-heading">Online play</h2>
+      <p>Online matches use Google Firebase (Realtime Database and Authentication) to pair players and pass moves. When you first play online, the app signs in to Firebase anonymously. That creates a random id that is not linked to your name, Apple Account or email. A room holds the room code, both anonymous ids, both display names and the match moves. Room data is deleted after the match ends. Google processes this data under the <a href="https://firebase.google.com/support/privacy">Firebase privacy terms</a>. If you never play online, nothing is sent to Firebase.</p>
+    </section>
+
+    <section aria-labelledby="gamecenter-heading">
+      <h2 id="gamecenter-heading">Game Center</h2>
+      <p>Flock Off uses Apple's Game Center for four optional leaderboards: Total Wins (not counting Easy computer wins), Online Wins, Lanes Claimed and Hard Win Streak. If you are signed in to Game Center, these numbers are submitted after matches and when you sign in. The app checks your sign-in quietly at launch and never shows the sign-in sheet unless you open the leaderboards. Apple handles your Game Center identity under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
+    </section>
+
+    <section aria-labelledby="tips-heading">
+      <h2 id="tips-heading">Optional tips</h2>
+      <p>Settings offers optional one-time tips through Apple's In-App Purchase. Apple processes the payment; Flock Off never sees your payment details. The app keeps only the verified transaction id on your device. Tipping changes nothing in the game.</p>
+    </section>
+
+    <section aria-labelledby="reviews-heading">
+      <h2 id="reviews-heading">App Store reviews</h2>
+      <p>After a few days of play and a win, Flock Off may ask Apple to show its review sheet when you return to the main menu: at most twice a year, at least 120 days apart, and once per app version. Apple decides whether to show it. The app never learns your rating.</p>
+    </section>
+
+    <section aria-labelledby="analytics-heading">
+      <h2 id="analytics-heading">Analytics</h2>
+      <p>Flock Off sends anonymous usage summaries to <a href="https://telemetrydeck.com/privacy/">TelemetryDeck</a>, a privacy-focused analytics service. Settings › Share anonymous usage turns this off at any time. Turning it off deletes the install id and anything not yet sent.</p>
+      <p>What is sent:</p>
+      <ul>
+        <li>Rough session length and time in matches, in ranges such as "3-10 minutes".</li>
+        <li>For each match: the mode, whether you won, lost, drew or left, how it ended, rough length, lanes won and lost, a rough count of animals sent, and your herd.</li>
+        <li>Lobby results (connected, failed or cancelled) with a rough wait time.</li>
+        <li>Your level when it goes up, the herd you pick, your sound, music and haptics settings, and whether you finished or skipped the tutorial.</li>
+        <li>App version, iPhone model and iOS version.</li>
+      </ul>
+      <p>Each summary carries a random id created on this device and hashed before it is sent. It is not your name, display name, Apple Account, Game Center or Firebase id, advertising id or vendor id. Room codes, names and free text are never sent. Nothing is linked to you or used for tracking or advertising. There is no crash reporting or advertising SDK.</p>
+    </section>
+
+    <section aria-labelledby="children-heading">
+      <h2 id="children-heading">Children's privacy</h2>
+      <p>Flock Off collects no personal information from anyone, including children. Analytics are anonymous and can be turned off.</p>
+    </section>
+
+    <section aria-labelledby="delete-heading">
+      <h2 id="delete-heading">Deleting your data</h2>
+      <p>Deleting Flock Off removes everything it stored on your iPhone. Turning off Share anonymous usage removes the analytics id and unsent summaries. Summaries already sent are anonymous and cannot be traced back to you. Online room data is deleted after each match. Game Center scores are managed in your device's Game Center settings or by Apple.</p>
+    </section>
+
+    <section aria-labelledby="changes-heading">
+      <h2 id="changes-heading">Changes to this policy</h2>
+      <p>If this policy changes, the new version will be posted here with a new "Last updated" date.</p>
+    </section>
+
+    <section aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>Questions? Open an issue at <a href="https://github.com/aagrawal207/flockoff-support/issues">github.com/aagrawal207/flockoff-support</a>.</p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p><a href="index.html">Flock Off</a> · <a href="support.html">Support</a> · <a href="https://github.com/aagrawal207/flockoff-support/issues">Public support issues</a></p>
+  </footer>
+</body>
+</html>

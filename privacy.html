@@ -33,11 +33,17 @@
       <ul>
         <li>Your settings: sound effects, music and haptics switches, the chosen music, your herd, the last computer difficulty, whether you have seen the tutorial, and the display name you choose.</li>
         <li>Your progress: experience points, level, unlocked herds, and match stats (matches, wins, losses, draws, lanes claimed, animals sent, win streaks, per mode).</li>
+        <li>Match history: for each finished match, the date, mode, result, lanes won and lost, length, and the other player's preset display name, herd and random player id (or the computer's difficulty). At most the last 500 matches.</li>
         <li>Tips: the verified App Store transaction ids of tips you have given and whether each was refunded, so a tip is never counted twice. Tips unlock nothing.</li>
         <li>Prompt timing: counts of finished matches and play days, and the dates of review requests and tip reminders, so the app asks rarely.</li>
         <li>Anonymous analytics, unless you turn them off: a random install id, the date analytics started on this device, and at most 64 summaries waiting to be sent.</li>
       </ul>
       <p>None of this is uploaded, except the Game Center scores and analytics summaries described below. There is no account and no sign-up.</p>
+    </section>
+
+    <section aria-labelledby="history-heading">
+      <h2 id="history-heading">Match history</h2>
+      <p>Flock Off keeps a ledger of your finished matches on your device so Scores can show your record against each friend. It stays on your iPhone and is never uploaded or sent to analytics. To tell rivals apart, each install creates a random player id. It is sent only to the other phone in a Nearby or Online match (and stored in the temporary Online room). It is not linked to your name, Apple Account or any other id.</p>
     </section>
 
     <section aria-labelledby="name-heading">
@@ -52,7 +58,7 @@
 
     <section aria-labelledby="online-heading">
       <h2 id="online-heading">Online play</h2>
-      <p>Online matches use Google Firebase (Realtime Database and Authentication) to pair players and pass moves. When you first play online, the app signs in to Firebase anonymously. That creates a random id that is not linked to your name, Apple Account or email. A room holds the room code, both anonymous ids, both display names and the match moves. Room data is deleted after the match ends. Google processes this data under the <a href="https://firebase.google.com/support/privacy">Firebase privacy terms</a>. If you never play online, nothing is sent to Firebase.</p>
+      <p>Online matches use Google Firebase (Realtime Database and Authentication) to pair players and pass moves. When you first play online, the app signs in to Firebase anonymously. That creates a random id that is not linked to your name, Apple Account or email. A room holds the room code, both anonymous ids, both display names, both random player ids and the match moves. Room data is deleted after the match ends. Google processes this data under the <a href="https://firebase.google.com/support/privacy">Firebase privacy terms</a>. If you never play online, nothing is sent to Firebase.</p>
     </section>
 
     <section aria-labelledby="gamecenter-heading">

@@ -31,9 +31,11 @@
       <h2 id="local-heading">What is stored on your iPhone</h2>
       <p>Flock Off saves these on your device with iOS's standard storage (UserDefaults):</p>
       <ul>
-        <li>Your settings: sound effects, music and haptics switches, the chosen music, your herd, the last computer difficulty, whether you have seen the tutorial, and the display name you choose.</li>
+        <li>Your settings: sound effects, music and haptics switches, the chosen music, your herd, the farmer you last picked, whether you have seen the tutorial, and the display name you choose.</li>
         <li>Your progress: experience points, level, unlocked herds, and match stats (matches, wins, losses, draws, lanes claimed, animals sent, win streaks, per mode).</li>
-        <li>Match history: for each finished match, the date, mode, result, lanes won and lost, length, and the other player's preset display name, herd and random player id (or the computer's difficulty). At most the last 500 matches.</li>
+        <li>Farmer ladder: the badges and ribbons you have earned against computer farmers, the farmer you picked, and a strength setting per farmer that follows your results.</li>
+        <li>Your character: the skin tone, hair, hat, outfit, accessory and face details you picked.</li>
+        <li>Match history: for each finished match, the date, mode, result, lanes won and lost, length, and the other player's preset display name, herd and character and random player id (or the computer farmer's name). At most the last 500 matches.</li>
         <li>Tips: the verified App Store transaction ids of tips you have given and whether each was refunded, so a tip is never counted twice. Tips unlock nothing.</li>
         <li>Prompt timing: counts of finished matches and play days, and the dates of review requests and tip reminders, so the app asks rarely.</li>
         <li>Anonymous analytics, unless you turn them off: a random install id, the date analytics started on this device, and at most 64 summaries waiting to be sent.</li>
@@ -51,6 +53,11 @@
       <p>You pick a display name made of two preset words, for example "Jolly Goat". It starts as a random pick, and you cannot type your own. It is shown to the other player in a Nearby or Online match. It is not sent to analytics.</p>
     </section>
 
+    <section aria-labelledby="character-heading">
+      <h2 id="character-heading">Your character</h2>
+      <p>Your character is built from preset parts (skin tone, hair, hat, outfit, accessory and face details). Like your display name, it is shown to the other player in a Nearby or Online match and stored in the temporary Online room. It is not sent to analytics.</p>
+    </section>
+
     <section aria-labelledby="nearby-heading">
       <h2 id="nearby-heading">Playing on the same Wi-Fi (Nearby)</h2>
       <p>Nearby play finds other phones on your local network with Bonjour and connects to them directly over your Wi-Fi. iOS asks for Local Network permission first. Match moves and your display name go only to the other phone, never to the internet or to the developer.</p>
@@ -63,7 +70,7 @@
 
     <section aria-labelledby="gamecenter-heading">
       <h2 id="gamecenter-heading">Game Center</h2>
-      <p>Flock Off uses Apple's Game Center for four optional leaderboards: Total Wins (not counting Easy computer wins), Online Wins, Lanes Claimed and Hard Win Streak. If you are signed in to Game Center, these numbers are submitted after matches and when you sign in. The app checks your sign-in quietly at launch and never shows the sign-in sheet unless you open the leaderboards. Apple handles your Game Center identity under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
+      <p>Flock Off uses Apple's Game Center for four optional leaderboards: Total Wins (not counting wins against the County Fair farmers Pip and Rosie), Online Wins, Lanes Claimed and Top Farmer Streak. If you are signed in to Game Center, these numbers are submitted after matches and when you sign in. The app checks your sign-in quietly at launch and never shows the sign-in sheet unless you open the leaderboards. Apple handles your Game Center identity under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
     </section>
 
     <section aria-labelledby="tips-heading">
